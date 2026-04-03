@@ -6,19 +6,19 @@ A real-time chat application built using **Node.js, Express, and Socket.IO** tha
 
 ## 🚀 Live Demo
 
-👉 https://chat-app.onrender.com
+👉 https://chat-app-pht4.onrender.com
 
 ---
 
 ## 📊 Monitoring
 
-👉 https://chat-app.onrender.com/metrics
+👉 https://chat-app-pht4.onrender.com/metrics
 
 ---
 
 ## ✨ Features
 
-* ⚡ Real-time messaging using Socket.IO
+* ⚡ Real-time messaging using Socket.
 * 🎨 Clean and responsive UI
 * 🔄 CI/CD pipeline using GitHub Actions
 * 🐳 Docker support
