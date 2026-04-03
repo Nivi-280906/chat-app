@@ -11,3 +11,10 @@ This is a real-time chat app using Node.js and Socket.IO.
 ## Run
 npm install
 npm start
+
+## 🚀 Live Demo
+https://chat-app.onrender.com
+
+
+## 📊 Monitoring
+https://chat-app.onrender.com/metrics
