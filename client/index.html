@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+
+  <!-- Header -->
+  <div class="chat-header">
+  <div class="header-left">👤</div>
+
+  <div class="header-center">
+    <h3>Chat Room</h3>
+    <p>Online</p>
+  </div>
+
+  <div class="header-right">⋮</div>
+</div>
+
+  <!-- Messages -->
+  <div id="messages" class="chat-messages"></div>
+
+  <!-- Input -->
+  <div class="chat-input">
+    <input id="msg" placeholder="Type a message..." />
+    <button onclick="sendMessage()">➤</button>
+  </div>
+
+</div>
+
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

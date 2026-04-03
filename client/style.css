@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Chat container */
+.chat-container {
+  width: 340px;
+  height: 560px;
+  background: #ffffff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+/* Header */
+.chat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 15px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.header-left {
+  font-size: 18px;
+  width: 40px;
+}
+
+.header-center {
+  text-align: center;
+  flex: 1;
+}
+
+.header-center h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #222;
+}
+
+.header-center p {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: #888;
+}
+
+.header-right {
+  font-size: 18px;
+  width: 40px;
+  text-align: right;
+}
+
+/* Messages */
+.chat-messages {
+  flex: 1;
+  padding: 12px;
+  overflow-y: auto;
+  background: #fafafa;
+}
+
+/* Message */
+.message {
+  max-width: 75%;
+  padding: 10px 14px;
+  margin: 6px 0;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+/* Your message */
+.green {
+  background: #e3f2fd;
+  color: #0d47a1;
+  margin-left: auto;
+}
+
+/* Others */
+.blue {
+  background: #ffffff;
+  border: 1px solid #eee;
+  margin-right: auto;
+}
+
+.red {
+  background: #fdecea;
+  margin-right: auto;
+}
+
+/* Time */
+.time {
+  font-size: 10px;
+  margin-top: 4px;
+  text-align: right;
+  color: #888;
+}
+
+/* Input */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+}
+
+/* Input box improved */
+.chat-input input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background: #f9fafb;
+}
+
+/* Send button improved */
+.chat-input button {
+  margin-left: 10px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: linear-gradient(135deg, #4facfe, #00c6ff);
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
