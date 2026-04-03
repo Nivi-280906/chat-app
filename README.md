@@ -1,20 +1,61 @@
-# Real-Time Chat Application
+# 💬 Real-Time Chat Application
 
-This is a real-time chat app using Node.js and Socket.IO.
+A real-time chat application built using **Node.js, Express, and Socket.IO** that enables instant communication between users.
 
-## Features
-- Real-time messaging
-- Simple UI
-- CI/CD pipeline
-- Docker support
-
-## Run
-npm install
-npm start
+---
 
 ## 🚀 Live Demo
-https://chat-app.onrender.com
 
+👉 https://chat-app.onrender.com
+
+---
 
 ## 📊 Monitoring
-https://chat-app.onrender.com/metrics
+
+👉 https://chat-app.onrender.com/metrics
+
+---
+
+## ✨ Features
+
+* ⚡ Real-time messaging using Socket.IO
+* 🎨 Clean and responsive UI
+* 🔄 CI/CD pipeline using GitHub Actions
+* 🐳 Docker support
+* 📈 Monitoring using Prometheus metrics
+
+---
+
+## 🛠️ Tech Stack
+
+* Frontend: HTML, CSS, JavaScript
+* Backend: Node.js, Express
+* Real-time: Socket.IO
+* CI/CD: GitHub Actions
+* Monitoring: Prometheus (prom-client)
+
+---
+
+## ⚙️ How to Run Locally
+
+```bash
+npm install
+npm start
+```
+
+Then open:
+http://localhost:5000
+
+---
+
+## 📌 Deployment
+
+The application is deployed on **Render** for live access.
+
+---
+
+## 📖 Description
+
+This project demonstrates a complete full-stack real-time application with CI/CD integration and monitoring for performance tracking. It ensures seamless communication and scalable deployment.
+
+---
